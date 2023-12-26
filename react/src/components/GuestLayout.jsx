@@ -10,7 +10,11 @@ export default function GuestLayout(){
     <div>
       <div>
         {/*For guest user only*/}
-        <Outlet />
+        <div className="login-signup-form">
+          <div className="form">
+            <Outlet />
+          </div>
+        </div>
       </div>
     </div>
   )
